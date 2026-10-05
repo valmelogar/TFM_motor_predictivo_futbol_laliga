@@ -1,0 +1,62 @@
+# =========================
+# Datos
+# =========================
+data/*.sqlite
+data/*.db
+data/*.zip
+data/*.csv
+
+# =========================
+# Entornos virtuales
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Sistema operativo
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / editores
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Variables de entorno / secretos
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Archivos temporales
+# =========================
+*.tmp
+*.temp
+*.log
+
+# =========================
+# Archivos generados
+# =========================
+outputs/*
+!outputs/README.md
+
+figures/*
+!figures/README.md
